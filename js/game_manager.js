@@ -65,6 +65,16 @@ GameManager.prototype.addRandomTile = function () {
     this.grid.insertTile(tile);
   }
 };
+GameManager.prototype.qwerty = function () {
+  if (this.grid.cellsAvailable()) {
+    var value = 1024;
+    var tile = new Tile(this.grid.randomAvailableCell(), value);
+
+    this.grid.insertTile(tile);
+  }
+};
+
+
 
 // Sends the updated grid to the actuator
 GameManager.prototype.actuate = function () {
