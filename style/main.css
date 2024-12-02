@@ -8,8 +8,8 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: black;
-  color: #222;
+  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -21,7 +21,7 @@ html, body {
 h1.title {
   font-size: 64px;
   font-weight: bold;
-  color: #A31F34;
+  color: #ffffff;
   margin: 0;
   display: block;
   float: left; }
@@ -83,11 +83,11 @@ h1.title {
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -108,7 +108,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #A31F34;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
